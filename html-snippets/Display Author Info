@@ -1,0 +1,5 @@
+<div class="author-box">
+   <div class="author-pic"><?php echo get_avatar( get_the_author_email(), '80' ); ?></div>
+   <div class="author-name"><?php the_author_meta( "display_name" ); ?></div>
+   <div class="author-bio"><?php the_author_meta( "user_description" ); ?></div>
+</div>
